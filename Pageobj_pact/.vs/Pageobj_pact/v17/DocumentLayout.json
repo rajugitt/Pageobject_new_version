@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|c:\\users\\administrator\\desktop\\pageobj\\pageobj_pact\\finance\\accounts\\locators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|solutionrelative:finance\\accounts\\locators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\finance\\accounts\\accountpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|solutionrelative:finance\\accounts\\accountpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\finance\\accounts\\chartof_accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|solutionrelative:finance\\accounts\\chartof_accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|solutionrelative:driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|c:\\users\\administrator\\desktop\\pageobj\\pageobj_pact\\finance\\accounts\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|solutionrelative:finance\\accounts\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|c:\\users\\administrator\\desktop\\pageobj\\pageobj_pact\\finance\\accounts\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7808F31D-9928-4677-8BB5-06DDFA3B1CEC}|Pageobj_pact.csproj|solutionrelative:finance\\accounts\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountPage.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\AccountPage.cs",
+              "RelativeDocumentMoniker": "Finance\\Accounts\\AccountPage.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\AccountPage.cs",
+              "RelativeToolTip": "Finance\\Accounts\\AccountPage.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T10:15:13.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Driver.cs",
+              "RelativeDocumentMoniker": "Driver.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Driver.cs",
+              "RelativeToolTip": "Driver.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:53:38.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chartof_accounts.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\Chartof_accounts.cs",
+              "RelativeDocumentMoniker": "Finance\\Accounts\\Chartof_accounts.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\Chartof_accounts.cs",
+              "RelativeToolTip": "Finance\\Accounts\\Chartof_accounts.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T10:12:16.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\HomePage.cs",
+              "RelativeDocumentMoniker": "Finance\\Accounts\\HomePage.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\HomePage.cs",
+              "RelativeToolTip": "Finance\\Accounts\\HomePage.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:41:01.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\LoginPage.cs",
+              "RelativeDocumentMoniker": "Finance\\Accounts\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\LoginPage.cs",
+              "RelativeToolTip": "Finance\\Accounts\\LoginPage.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:35:50.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Locators.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\Locators.cs",
+              "RelativeDocumentMoniker": "Finance\\Accounts\\Locators.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Pageobj\\Pageobj_pact\\Finance\\Accounts\\Locators.cs",
+              "RelativeToolTip": "Finance\\Accounts\\Locators.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwCYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T10:16:52.874Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
