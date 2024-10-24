@@ -37,9 +37,11 @@ public class ChartAccountsTest
         string username = worksheet.Cells[2, 4].Text;
         string password = worksheet.Cells[2, 5].Text;
 
-        LoginPage loginPage = new LoginPage(driver);
+        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(200)); // Create the wait instance
+        LoginPage loginPage = new LoginPage(driver, wait); // Pass the wait instance to the LoginPage constructor
+
         driver.Navigate().GoToUrl(url);
-        Thread.Sleep(5000);
+        Thread.Sleep(5000); // Consider replacing this with a wait for a specific element
 
         loginPage.Login(username, password);
     }
@@ -47,7 +49,7 @@ public class ChartAccountsTest
     // Navigate to Chart of Accounts and create an account
     public static void NavigateToChartOfAccountsAndCreateAccount()
     {
-        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(160));
+        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(200));
         Thread.Sleep(5000);
         HomePage homePage = new HomePage(driver, wait);
         homePage.GoToChartOfAccountsPage();
@@ -65,14 +67,14 @@ public class ChartAccountsTest
     // Search for an account
     public static void SearchForAccount()
     {
-        AccountPage accountPage = new AccountPage(driver, new WebDriverWait(driver, TimeSpan.FromSeconds(160)));
+        AccountPage accountPage = new AccountPage(driver, new WebDriverWait(driver, TimeSpan.FromSeconds(200)));
         Thread.Sleep(5000);
         accountPage.SearchAccount(Newaccount);
     }
     public static void editaccount()
     {
 
-        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(160));
+        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(200));
         HomePage editacc = new HomePage(driver, wait);
         editacc.Clickeditbutton();
         Thread.Sleep(5000);

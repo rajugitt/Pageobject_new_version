@@ -17,7 +17,7 @@ public class HomePage
     {
        
         _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Locators.HomePage.FinanceMenu)).Click();
-        Thread.Sleep(5000);
+
         _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Locators.HomePage.ChartOfAccountsMenu)).Click();
     }
 
