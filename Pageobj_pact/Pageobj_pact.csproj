@@ -90,11 +90,11 @@
     <Compile Include="Driver.cs" />
     <Compile Include="Finance\Accounts\AccountPage.cs" />
     <Compile Include="Finance\Accounts\Chartof_accounts.cs" />
-    <Compile Include="Finance\Accounts\Locators.cs" />
+    <Compile Include="Finance\Accounts\Financelocators.cs" />
+    <Compile Include="home\Locators.cs" />
     <Compile Include="Finance\Accounts\LoginPage.cs" />
     <Compile Include="Finance\Accounts\HomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Timespan_and_wait_methods\waithelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -107,7 +107,7 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('packages\Selenium.WebDriver.4.25.0\build\Selenium.WebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.WebDriver.4.25.0\build\Selenium.WebDriver.targets'))" />
-    <Error Condition="!Exists('packages\Selenium.WebDriver.ChromeDriver.130.0.6723.5800\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.WebDriver.ChromeDriver.130.0.6723.5800\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+    <Error Condition="!Exists('packages\Selenium.WebDriver.ChromeDriver.130.0.6723.6900\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Selenium.WebDriver.ChromeDriver.130.0.6723.6900\build\Selenium.WebDriver.ChromeDriver.targets'))" />
   </Target>
-  <Import Project="packages\Selenium.WebDriver.ChromeDriver.130.0.6723.5800\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.130.0.6723.5800\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Import Project="packages\Selenium.WebDriver.ChromeDriver.130.0.6723.6900\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('packages\Selenium.WebDriver.ChromeDriver.130.0.6723.6900\build\Selenium.WebDriver.ChromeDriver.targets')" />
 </Project>

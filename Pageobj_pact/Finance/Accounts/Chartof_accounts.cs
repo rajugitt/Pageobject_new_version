@@ -12,7 +12,6 @@ public class ChartAccountsTest
     static Random random = new Random();
     static string Newaccount = null;
     static string lastedited = null;
-
     static IWebDriver driver = null;
     static ExcelApp excelApp = null;
     static Workbook workbook = null;
@@ -36,14 +35,15 @@ public class ChartAccountsTest
         string url = worksheet.Cells[2, 1].Text;
         string username = worksheet.Cells[2, 4].Text;
         string password = worksheet.Cells[2, 5].Text;
+        string targeturl = worksheet.Cells[2,7].Text;
+                
 
         WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(200)); // Create the wait instance
         LoginPage loginPage = new LoginPage(driver, wait); // Pass the wait instance to the LoginPage constructor
 
         driver.Navigate().GoToUrl(url);
-        Thread.Sleep(5000); // Consider replacing this with a wait for a specific element
-
         loginPage.Login(username, password);
+      
     }
 
     // Navigate to Chart of Accounts and create an account
@@ -57,9 +57,12 @@ public class ChartAccountsTest
 
         string randomAccountCode = GenerateRandomAccountCode();
         string randomAccountName = GenerateRandomAccountName();
-        AccountPage accountPage = new AccountPage(driver, wait);
+        AccountPage accountPage = new AccountPage(driver, wait); 
         accountPage.CreateAccount(randomAccountCode, randomAccountName);
+        Console.WriteLine("created account is done");
+
         Thread.Sleep(5000);
+
         Newaccount = randomAccountCode;
  // Save the last edited account for future operations
     }
@@ -70,6 +73,8 @@ public class ChartAccountsTest
         AccountPage accountPage = new AccountPage(driver, new WebDriverWait(driver, TimeSpan.FromSeconds(200)));
         Thread.Sleep(5000);
         accountPage.SearchAccount(Newaccount);
+        Console.WriteLine("search done");
+
     }
     public static void editaccount()
     {
@@ -84,8 +89,26 @@ public class ChartAccountsTest
         editaccount.EditAccount(randomAccountCode, randomAccountName);
         Thread.Sleep(5000);
         lastedited = randomAccountCode;
+        Console.WriteLine("edit account done");
+
 
     }
+    public static void Deleteaccounts()
+    {
+        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(200));
+        HomePage delacc = new HomePage(driver, wait);
+        delacc.GoToChartOfAccountsPage();
+        Thread.Sleep(5000);
+        AccountPage Delobj = new AccountPage(driver, wait);
+        Delobj.SearchAccount(lastedited);
+        delacc.Clickdeletebutton();
+        Thread.Sleep(5000);
+        Delobj.Deleteaccount();
+        Console.WriteLine("delete done ");
+
+    }
+
+
     // Save changes to Excel
     public static void SaveChangesToExcel()
     {

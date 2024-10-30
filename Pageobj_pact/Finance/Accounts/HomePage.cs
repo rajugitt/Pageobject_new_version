@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using Pageobj_pact.Finance.Accounts;
 using System.Threading;
 
 public class HomePage
@@ -24,10 +25,14 @@ public class HomePage
     public void ClickAddButton()
     {
        
-        _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Locators.HomePage.AddButton)).Click();
+        _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Financelocators.AccountPage.AddButton)).Click();
     }
     public void Clickeditbutton()
     {
-        _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Locators.Editaccount.Editoption)).Click();
+        _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Financelocators.Editaccount.Editoption)).Click();
+    }
+    public void Clickdeletebutton()
+    {
+        _wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(Financelocators.DeleteAccount.deleteoption)).Click();
     }
 }

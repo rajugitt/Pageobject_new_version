@@ -1,8 +1,10 @@
-﻿using OpenQA.Selenium;
+﻿using Microsoft.Office.Interop.Excel;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System.Threading;
-
+using ExcelApp = Microsoft.Office.Interop.Excel.Application;
+using System.Runtime.InteropServices;
 public class LoginPage
 {
     private IWebDriver _driver;
@@ -20,6 +22,8 @@ public class LoginPage
         _wait.Until(ExpectedConditions.ElementIsVisible(Locators.LoginPage.PasswordField)).SendKeys(password);
         Thread.Sleep(5000);
         _wait.Until(ExpectedConditions.ElementIsVisible(Locators.LoginPage.SubmitButton)).Click();
+ 
+
         _driver.FindElement(Locators.LoginPage.Index_of_the_org).Click();
         _driver.FindElement(Locators.LoginPage.Selection_submit).Click();
         _driver.FindElement(Locators.LoginPage.Compact_info_btn).Click();

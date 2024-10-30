@@ -24,16 +24,18 @@ class Driver
             ChartAccountsTest.NavigateToChartOfAccountsAndCreateAccount();
             Thread.Sleep(5000);
             // Step 4: Search for the created account
-            ChartAccountsTest.SearchForAccount();
+            //ChartAccountsTest.SearchForAccount();
             Thread.Sleep(5000);
 
-            ChartAccountsTest.editaccount();
+            //ChartAccountsTest.editaccount();
             // Step 5: Optionally, perform further actions like editing, deleting, etc.
             // ChartAccountsTest.EditAccount();
-            // ChartAccountsTest.DeleteAccount();
+            //ChartAccountsTest.Deleteaccounts();
+      
 
             // Step 6: Save changes to Excel (if required)
             ChartAccountsTest.SaveChangesToExcel();
+
         }
         catch (Exception ex)
         {
@@ -45,7 +47,7 @@ class Driver
             ChartAccountsTest.Cleanup();
 
         }
-        Console.ReadLine();
+    
     }
 
 }
